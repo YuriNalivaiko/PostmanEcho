@@ -1,4 +1,4 @@
-package ru.netology.rest;
+package package ru.netology.rest;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -17,7 +17,7 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Погода сегодня, пасмурно?"));
+                .body("data", equalTo("Погода сегодня, солнечно?"));
 
     }
 

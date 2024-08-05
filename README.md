@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/0h2rela225l877hu?svg=true)](https://ci.appveyor.com/project/YuriNalivaiko/api-ci)
+[![Build status](https://ci.appveyor.com/api/projects/status/wk8xna7ucw2wq3bn?svg=true)](https://ci.appveyor.com/project/YuriNalivaiko/postmanecho)
 
 ## Задача №3: Postman Echo
 
