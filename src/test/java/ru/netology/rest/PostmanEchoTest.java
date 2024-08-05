@@ -1,8 +1,12 @@
-package package ru.netology.rest;
+package ru.netology.rest;
+
 import org.junit.jupiter.api.Test;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
+
 public class PostmanEchoTest {
+
     @Test
     void shouldCheckoutPostmanEcho() {
 // Given - When - Then
@@ -20,5 +24,5 @@ public class PostmanEchoTest {
                 .body("data", equalTo("Погода сегодня, солнечно?"));
 
     }
-
 }
+
